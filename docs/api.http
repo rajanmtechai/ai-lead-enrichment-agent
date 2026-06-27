@@ -1,0 +1,29 @@
+### Login
+POST {{baseUrl}}/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@acme.com",
+  "password": "admin123!"
+}
+
+### Research company
+POST {{baseUrl}}/api/v1/research/company
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "query": "acme.com"
+}
+
+### Get company
+GET {{baseUrl}}/api/v1/companies/{{companyId}}
+Authorization: Bearer {{token}}
+
+### Approve draft
+POST {{baseUrl}}/api/v1/drafts/{{draftId}}/approve
+Authorization: Bearer {{token}}
+
+### Sync draft
+POST {{baseUrl}}/api/v1/crm/sync/{{draftId}}
+Authorization: Bearer {{token}}
