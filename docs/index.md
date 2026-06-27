@@ -75,19 +75,7 @@ It researches companies, enriches executives, scores ICP fit, identifies buying 
 
 ## System Architecture
 
-```mermaid
-flowchart LR
-	User[Analyst / SDR / AE] --> Web[Next.js Dashboard]
-	Web --> API[FastAPI API]
-	API --> PG[(PostgreSQL)]
-	API --> Redis[(Redis)]
-	API --> Qdrant[(Qdrant)]
-	API --> LLM[OpenAI / Anthropic]
-	API --> Search[Firecrawl / Tavily / Serper / Brave]
-	API --> Enrich[Apollo / Hunter / PDL / Clearbit]
-	API --> CRM[HubSpot / Lemlist / Salesforce]
-	API --> N8N[n8n Orchestration]
-```
+![System Architecture](assets/architecture.png)
 
 ## Technical Docs
 
