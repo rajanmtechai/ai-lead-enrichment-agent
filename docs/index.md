@@ -10,20 +10,12 @@ Built for consulting portfolios, client demos, and revenue operations teams that
 
 ## Professional Profile
 
-For inquiries and project collaboration:
-
-- Jawaharlal Rajan
-- M.Tech in Artificial Intelligence and Machine Learning, BITS Pilani
-- Email: jawamtech@hotmail.com
-
-### Core Skills
-
-- AI workflow design with LangGraph and LangChain
-- Backend engineering with FastAPI, SQLAlchemy, Alembic, PostgreSQL, and Redis
-- LLM integration with OpenAI and Anthropic using structured outputs
-- Lead enrichment systems including ICP scoring and buying-signal analysis
-- Workflow automation with n8n
-- Next.js dashboard development for review, approval, and analytics
+| Professional Contact | Details |
+| --- | --- |
+| Name | Jawaharlal Rajan |
+| Qualification | M.Tech in Artificial Intelligence and Machine Learning, BITS Pilani |
+| Email | jawamtech@gmail.com |
+| Core Skills | AI workflow design with LangGraph and LangChain<br>Workflow automation with n8n<br>Backend engineering with FastAPI, SQLAlchemy, Alembic, PostgreSQL, and Redis<br>LLM integration with OpenAI and Anthropic using structured outputs<br>Lead enrichment systems including ICP scoring and buying-signal analysis<br>Next.js dashboard development for review, approval, and analytics |
 
 ## Overview
 
