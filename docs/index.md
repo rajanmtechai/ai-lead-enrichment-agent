@@ -64,6 +64,22 @@ It researches companies, enriches executives, scores ICP fit, identifies buying 
 - Automation: n8n
 - Deployment: Docker, Docker Compose, GitHub Actions
 
+## System Architecture
+
+```mermaid
+flowchart LR
+	User[Analyst / SDR / AE] --> Web[Next.js Dashboard]
+	Web --> API[FastAPI API]
+	API --> PG[(PostgreSQL)]
+	API --> Redis[(Redis)]
+	API --> Qdrant[(Qdrant)]
+	API --> LLM[OpenAI / Anthropic]
+	API --> Search[Firecrawl / Tavily / Serper / Brave]
+	API --> Enrich[Apollo / Hunter / PDL / Clearbit]
+	API --> CRM[HubSpot / Lemlist / Salesforce]
+	API --> N8N[n8n Orchestration]
+```
+
 ## Technical Docs
 
 - [Architecture diagram](architecture.md)
