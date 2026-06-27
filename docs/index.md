@@ -6,7 +6,24 @@ title: AI Lead Enrichment Agent
 
 An AI-powered lead research and outreach platform that turns a company domain into a qualified prospect profile, decision-maker list, buying-signal summary, and personalized outreach drafts ready for human approval.
 
-Built for freelance portfolios, client demos, and revenue operations teams that want to show a real business workflow instead of a generic SaaS mockup.
+Built for consulting portfolios, client demos, and revenue operations teams that want to show a real business workflow instead of a generic SaaS mockup.
+
+## Professional Profile
+
+For inquiries and project collaboration:
+
+- Jawaharlal Rajan
+- M.Tech in Artificial Intelligence and Machine Learning, BITS Pilani
+- Email: jawamtech@hotmail.com
+
+### Core Skills
+
+- AI workflow design with LangGraph and LangChain
+- Backend engineering with FastAPI, SQLAlchemy, Alembic, PostgreSQL, and Redis
+- LLM integration with OpenAI and Anthropic using structured outputs
+- Lead enrichment systems including ICP scoring and buying-signal analysis
+- Workflow automation with n8n
+- Next.js dashboard development for review, approval, and analytics
 
 ## Overview
 
@@ -44,7 +61,7 @@ It researches companies, enriches executives, scores ICP fit, identifies buying 
 - B2B agencies selling outbound or lead generation services
 - SaaS companies building a repeatable prospecting system
 - Sales teams that want AI assistance without losing control
-- Freelance clients who need a polished, high-value revenue operations demo
+- Independent consultants and teams who need a polished, high-value revenue operations demo
 
 ## Product Highlights
 
@@ -124,9 +141,3 @@ npm run dev
 - External integrations are scaffolded as pluggable adapters for Firecrawl, Tavily, Serper, Brave, Apollo, Hunter.io, People Data Labs, Clearbit, HubSpot, Lemlist, OpenAI, and Anthropic.
 - The implementation is modular so it can be extended into a client-specific production system without rewriting the core workflow.
 
-## Professional Contact
-
-For inquiries and project collaboration:
-
-- Jawaharlal Rajan
-- M.Tech in Artificial Intelligence and Machine Learning, BITS Pilani
