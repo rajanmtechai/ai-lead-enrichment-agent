@@ -1,0 +1,30 @@
+{
+  "name": "Lead Research and Outreach Workflow",
+  "nodes": [
+    {
+      "parameters": {"path": "lead-research"},
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {"url": "={{$json[\"apiUrl\"]}}/api/v1/research/company", "method": "POST", "sendBody": true, "bodyParametersJson": "={\"query\": $json.domain}"},
+      "name": "Research API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {"jsCode": "return items;"},
+      "name": "Pass Through",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [760, 300]
+    }
+  ],
+  "connections": {
+    "Webhook": {"main": [[{"node": "Research API", "type": "main", "index": 0}]]},
+    "Research API": {"main": [[{"node": "Pass Through", "type": "main", "index": 0}]]}
+  }
+}
