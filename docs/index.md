@@ -123,3 +123,10 @@ npm run dev
 
 - External integrations are scaffolded as pluggable adapters for Firecrawl, Tavily, Serper, Brave, Apollo, Hunter.io, People Data Labs, Clearbit, HubSpot, Lemlist, OpenAI, and Anthropic.
 - The implementation is modular so it can be extended into a client-specific production system without rewriting the core workflow.
+
+## Professional Contact
+
+For inquiries and project collaboration:
+
+- Jawaharlal Rajan
+- M.Tech in Artificial Intelligence and Machine Learning, BITS Pilani
